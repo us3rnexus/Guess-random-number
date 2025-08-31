@@ -1,5 +1,5 @@
 body {
-    background: url('./img/bgwallpaper.jpg') no-repeat center center fixed;
+    background: url('bgwallpaper.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Segoe UI', Arial, sans-serif;
     min-height: 100vh;
@@ -60,4 +60,5 @@ button:hover {
     font-size: 1.3rem;
     color: #2d3748;
     min-height: 2rem;
+
 }
