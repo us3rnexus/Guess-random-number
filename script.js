@@ -13,7 +13,7 @@ function checkGuess() {
         resultDiv.style.fontWeight = "bold";
         window.clearResultTimeout = setTimeout(() => {
             resultDiv.textContent = "";
-        }, 2000);
+        },3000);
         return;
     }
     if (userGuess === randomNumber) {
@@ -26,13 +26,14 @@ function checkGuess() {
         resultDiv.style.fontWeight = "bold";
         window.clearResultTimeout = setTimeout(() => {
             resultDiv.textContent = "";
-        }, 1300);
+        }, 3000);
     } else {
         resultDiv.textContent = "Too high! Try again.";
         resultDiv.style.color = "red";
         resultDiv.style.fontWeight = "bold";
         window.clearResultTimeout = setTimeout(() => {
             resultDiv.textContent = "";
-        }, 1300);
+        }, 3000);
     }
+
 }
