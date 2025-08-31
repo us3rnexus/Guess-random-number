@@ -1,0 +1,63 @@
+body {
+    background: url('./img/bgwallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 2rem 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2d3748;
+}
+#input {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+    transition: border 0.2s;
+    text-align: center;
+}
+#input:focus {
+    border: 1.5px solid #4299e1;
+}
+button {
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+    background: #4299e1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #2b6cb0;
+}
+#random-number {
+    font-family: monospace;
+    font-size: 1.3rem;
+    color: #2d3748;
+    min-height: 2rem;
+}
